@@ -1,0 +1,39 @@
+---
+import { Image } from "astro:assets";
+import PoseCard from "../components/PoseCard/poseCard.astro";
+
+import NayeonImage from "../assets/images/Nayeon.jpg";
+import JeongyonImage from "../assets/images/Jeongyon.jpg";
+import MomoImage from "../assets/images/Momo.jpg";
+import SanaImage from "../assets/images/Sana.jpg";
+import JihyoImage from "../assets/images/Jihyo.jpg";
+import MinaImage from "../assets/images/Minari.jpg";
+import DahyunImage from "../assets/images/Dahyun.jpg";
+import ChaeyoungImage from "../assets/images/ChaeYoung.jpg";
+import TzuyuImage from "../assets/images/Tzuyu.jpg";
+---
+
+<!-- Esto es basicamente la card principal donde estan las 9 imágenes de las integrantes-->
+<div class="grid grid-cols-3 w-full max-w-[960px] mx-auto my-7 px-7 gap-2 ">
+
+  <!-- Nayeon Image -->
+  <PoseCard name="Nayeon" imageSrc={NayeonImage} />
+  <!-- Jeonyon Image -->
+  <PoseCard name="Jeongyeon" imageSrc={JeongyonImage} />
+  <!-- Momo Image -->
+  <PoseCard name="Momo" imageSrc={MomoImage} />
+  <!-- Sana Image -->
+  <PoseCard name="Sana" imageSrc={SanaImage} />
+  <!-- Jihyo Image -->
+  <PoseCard name="Jihyo" imageSrc={JihyoImage} />
+  <!-- Mina Image -->
+  <PoseCard name="Mina" imageSrc={MinaImage} />
+  <!-- Dahyun Image -->
+  <PoseCard name="Dahyun" imageSrc={DahyunImage} />
+  <!-- Chaeyoung Image -->
+  <PoseCard name="Cheayoung" imageSrc={ChaeyoungImage} />
+  <!-- Tzuyu Image -->
+  <PoseCard name="Tzuyu" imageSrc={TzuyuImage} />
+  
+</div>
+
