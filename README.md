@@ -1,3 +1,16 @@
+# Twice Page Clone
+
+This project is a faithful clone of a web page from the K-pop group Twice.  
+The goal is to practice frontend skills such as layout, animations, responsive design, and componentization using modern web tools.
+
+[Twice Profile](https://www.twicejapan.com/feature/profile)
+
+## Technologies Used
+
+- [Astro](https://astro.build/) - Static site builder  
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework  
+
+
 # Astro Starter Kit: Basics
 
 ```sh
