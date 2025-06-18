@@ -56,9 +56,10 @@
 
 .text-gap {
   letter-spacing: 0.5em;
-  transition: letter-spacing 0.5s ease; /* transición suave en ambos sentidos */
+  transition: opacity 0.5s linear 0.15s,
+              transform 0.5s linear 0.15s,
+              letter-spacing 0.5s linear 0.15s;
 }
-
 .group:hover .text-gap {
   letter-spacing: normal;
 }

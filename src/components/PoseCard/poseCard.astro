@@ -12,16 +12,22 @@ const { name, imageSrc, alt = name } = Astro.props;
 
 <div class="relative flex justify-center aspect-[1/1] overflow-hidden group">
     <div
-        class="converging-box absolute inset-0 group-hover:mask-image-linear group-hover:opacity-80 cursor-pointer"
+        class="converging-box
+         absolute inset-0
+        group-hover:mask-image-linear 
+        group-hover:opacity-80 
+        cursor-pointer"
     >
     </div>
-<!-- converging-box : es la clas encargada de realizar todo el tema de transiciones / animaciones de la card -->
+    <!-- converging-box : es la clas encargada de realizar todo el tema de transiciones / animaciones de la card -->
 
     <p
         class="text-gap text-2xl text-white font-bold absolute top-0 bottom-0 left-0 right-0 m-auto flex justify-center items-center text-center
-    opacity-10 scale-90 translate-y-2
-    group-hover:opacity-100 group-hover:translate-y-0 group-hover:scale-100
-    transition-all duration-500 ease-out delay-150 pointer-events-none">
+  opacity-0
+  group-hover:opacity-100
+  group-hover:scale-100
+  pointer-events-none"
+    >
         {name}
     </p>
 
