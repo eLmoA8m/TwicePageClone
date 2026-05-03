@@ -1,2 +1,6 @@
 @import "tailwindcss";
 
+@theme {
+  --color-pink-hover: #ff5fa2;
+}
+

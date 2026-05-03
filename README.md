@@ -7,7 +7,7 @@ The goal is to practice frontend skills such as layout, animations, responsive d
 
 ## Technologies Used
 
-- [Astro](https://astro.build/) - Static site builder  
+- [astro](https://astro.build/) - Static site builder  
 - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework  
 
 
