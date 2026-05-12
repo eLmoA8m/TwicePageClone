@@ -1,35 +1,39 @@
 ---
 import logoMark from "../assets/images/logomark.png";
 ---
-
-<nav class="w-full top-0 left-0">
-  <div class="flex flex-wrap items-center justify-between mx-auto p-4">
-
-    <ul class="lg:flex items-center space-x-6 mx-auto oswald-15px">
-      <li><a href="#precios" class="text-black underline hover:text-pink-hover">HOME</a></li>
-      <li><a href="#Menu" class="text-black hover:text-pink-hover">PROFILE</a></li>
+<header class="mx-auto p-2 border-b border-gray-100">
+  <nav
+    class="grid grid-cols-[1fr_auto_1fr] items-center max-w-275 mx-auto"
+  >
+    <!-- LEFT -->
+    <ul class="flex justify-end items-center space-x-6 oswald-15px pr-8">
+      <li><a href="#Menu" class="text-black hover:text-pink-hover">HOME</a></li>
+      <li><a href="#Menu" class="text-pink-hover hover:text-pink-hover">PROFILE</a></li>
       <li><a href="#Menu" class="text-black hover:text-pink-hover">NEWS</a></li>
       <li><a href="#Menu" class="text-black hover:text-pink-hover">SCHEDULE</a></li>
       <li><a href="#Menu" class="text-black hover:text-pink-hover">DISCOGRAPHY</a></li>
+    </ul>
 
+    <!-- LOGO -->
 <a href="/" class="logo-wrapper">
-  <img
-    src={logoMark.src}
-    alt="TWICE OFFICIAL SITE"
-    class="logomark"
-  />
+  <div class="logo-card">
+    <img src={logoMark.src} />
+  </div>
 
   <div class="shine"></div>
 </a>
 
-
-
+    <!-- RIGHT -->
+    <ul class="flex justify-start items-center space-x-6 oswald-15px pl-8">
       <li><a href="#Menu" class="text-black hover:text-pink-hover">SPECIAL</a></li>
       <li><a href="#Menu" class="text-black hover:text-pink-hover">FANCLUB</a></li>
       <li><a href="#Menu" class="text-black hover:text-pink-hover">MOBILE</a></li>
       <li><a href="#Menu" class="text-black hover:text-pink-hover">W MEMBER</a></li>
-      <li><a href="#Menu" class="text-black hover:text-pink-hover">...</a></li>
+      <li><a href="#Menu" class="text-black hover:text-pink-hover">...</a>
+      
+      </li>
     </ul>
+  </nav>
 
-  </div>
-</nav>
+
+</header>
